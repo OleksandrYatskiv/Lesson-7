@@ -1,0 +1,336 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Nutino;
+    src: url(./Nunito_Sans/NunitoSans-ExtraLight.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background-color: #284854;
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+}
+
+nav {
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    background-color: #60C1BD;
+    border-radius: 100px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.navigation__links {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.navigation__links>a {
+    color: #284854;
+}
+
+.nav__div__login {
+    font-family: Nutino;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 10px 40px;
+}
+
+.nav__login {
+    margin-right: 50px;
+}
+
+.nav__indevets {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.header__headline {
+    display: inline-block;
+    color: #8BC441;
+    font-size: 70px;
+    width: 712px;
+    margin: 100px 0px 0px 150px;
+
+}
+
+.header__text {
+    display: inline-block;
+    width: 540px;
+    font-size: 20px;
+    margin: 60px 0px 0px 150px;
+    font-family: Nutino;
+    color: #FFFFFF;
+}
+
+.header__image {
+    float: right;
+    margin: 100px 200px 0px 0px;
+}
+
+.header__veterinarians {
+    display: inline-block;
+    width: 506px;
+    height: 203px;
+    background-color: #FFFFFF;
+    margin: 200px 0px 0px 150px;
+}
+
+.header__veterinarians>img {
+    float: left;
+    margin-top: 50px;
+}
+
+.header__veterinarians__headline {
+    color: #8BC441;
+    font-size: 37px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.header__veterinarians__div__link {
+    color: #60C1BD;
+    font-family: Nutino;
+}
+
+.header__veterinarians__div {
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.header__hospitals {
+    float: right;
+    width: 506px;
+    height: 203px;
+    background-color: #FFFFFF;
+    margin: 200px 0px 0px 200px;
+}
+
+.header__hospitals__headline {
+    color: #8BC441;
+    font-size: 37px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.header__hospitals__div__link {
+    color: #60C1BD;
+    font-family: Nutino;
+}
+
+.header__hospitals__div {
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.header__hospitals>img {
+    float: left;
+    margin-top: 50px;
+}
+
+.header__veterinarians-and-hospitals {
+    display: inline-block;
+}
+
+.beginning {
+    margin: 300px 630px 0px 630px;
+    color: #60C1BD;
+    font-family: Nutino;
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 55px;
+    color: #284854;
+    margin-left: 500px;
+}
+
+.main__dog-image {
+    float: left;
+    margin-left: 230px;
+    margin-top: 150px;
+}
+
+.main__first-part {
+    margin-left: 700px;
+    margin-top: 160px;
+}
+
+.main__first-part__step-one {
+    font-size: 20px;
+    color: #798B56;
+}
+
+.main__first-part__g-vets {
+    font-size: 40px;
+    color: #8BC441;
+}
+
+.main__first-part__text {
+    margin-top: 20px;
+    width: 530px;
+    font-size: 16px;
+    color: #284854;
+}
+
+.main__telescope-image {
+    float: right;
+    margin-top: 190px;
+    margin-right: 230px;
+}
+
+.main__second-part {
+    margin-left: 230px;
+    margin-top: 250px;
+    margin-right: 230px;
+}
+
+.main__second-part__next {
+    color: #798B56;
+    font-size: 20px;
+}
+
+.main__second-part__workplaces {
+    font-size: 40px;
+    color: #8BC441;
+    width: 450px;
+}
+
+.main__second-part__text {
+    color: #284854;
+    width: 530px;
+    margin-top: 20px;
+}
+
+
+.main__hugging-image {
+    float: left;
+    margin-left: 230px;
+    margin-top: 75px;
+}
+
+.main__third-part {
+    margin-left: 700px;
+    margin-top: 160px;
+}
+
+.main__third-part__result {
+    font-size: 20px;
+    color: #798B56;
+}
+
+.main__third-part__happy {
+    font-size: 40px;
+    color: #8BC441;
+}
+
+.main__third-part__text {
+    margin-top: 20px;
+    width: 530px;
+    font-size: 16px;
+    color: #284854;
+}
+
+.main__pets-image {
+    float: left;
+    margin-top: 80px;
+    margin-left: 230px;
+}
+
+.main__fourth-part {
+    margin-top: 100px;
+    margin-left: 850px;
+}
+
+.main__fourth-part__who {
+    color: #60C1BD;
+    font-family: Nutino;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.main__fourth-part__mission {
+    color: #284854;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.main__fourth-part__text {
+    font-family: Nutino;
+    font-size: 18px;
+    font-weight: 400;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.main__fourth-part__div__link {
+    color: #60C1BD;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #60C1BD;
+    padding: 5px 10px;
+}
+
+.main__fourth-part__link {
+    margin: 60px;
+}
+
+section{
+    width: 100%;
+    height: 440px;
+    background-color: #8BC441;
+    margin-top: 200px;
+}
+
+.section__image{
+    float: left;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
+.section__container{
+    margin-top: 80px;
+    margin-left: 215px;
+}
+
+.section__container__headline{
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 800px;
+}
+
+.section__container__become-indevet{
+    width: 240px;
+    display: inline-block;
+}
+
+.section__container__become-indevet a{
+    font-family: Nutino;
+    color: #FFFFFF;
+}
+
+.section__container__become-partner{
+    width: 240px;
+    display: inline-block;
+}
+
+.section__container__become-partner a{
+    font-family: Nutino;
+    color: #FFFFFF;
+}
