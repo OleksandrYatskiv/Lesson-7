@@ -290,47 +290,145 @@ h1 {
     margin: 60px;
 }
 
-section{
+section {
     width: 100%;
     height: 440px;
     background-color: #8BC441;
     margin-top: 200px;
 }
 
-.section__image{
+.section__image {
     float: left;
     margin-top: 100px;
     margin-left: 180px;
 }
 
-.section__container{
-    margin-top: 80px;
-    margin-left: 215px;
+.section__container {
+    padding-top: 90px;
+    padding-left: 600px;
 }
 
-.section__container__headline{
+.section__container__headline {
     font-size: 55px;
     color: #FFFFFF;
     font-weight: 400;
-    width: 800px;
+    width: 650px;
 }
 
-.section__container__become-indevet{
+.section__container__become-indevet {
     width: 240px;
     display: inline-block;
+    margin-top: 60px;
 }
 
-.section__container__become-indevet a{
+.section__container__become-indevet a {
     font-family: Nutino;
     color: #FFFFFF;
 }
 
-.section__container__become-partner{
+.section__container__become-partner {
     width: 240px;
     display: inline-block;
+    margin-left: 130px;
 }
 
-.section__container__become-partner a{
+.section__container__become-partner a {
     font-family: Nutino;
     color: #FFFFFF;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 750px;
+    padding: 120px 200px 0px 150px;
+}
+
+.footer__veterinars {
+    display: flex;
+    flex-direction: column;
+    max-height: 210px;
+}
+
+.footer__veterinars h3 {
+    font-family: Nutino;
+    font-weight: 400;
+    font-size: 20px;
+    color: #284854;
+    padding-bottom: 25px;
+}
+
+.footer__veterinars a{
+    font-family: Nutino;
+    font-weight: 400;
+    font-size: 14px;
+    color: #60C1BD;
+    padding-bottom: 20px;
+ }
+
+.footer__hospitals {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    max-height: 210px;
+}
+
+.footer__hospitals h3 {
+    font-family: Nutino;
+    font-weight: 400;
+    font-size: 20px;
+    color: #284854;
+    padding-bottom: 25px;
+}
+
+.footer__hospitals a{
+    font-family: Nutino;
+    font-weight: 400;
+    font-size: 14px;
+    color: #60C1BD;
+    padding-bottom: 20px;
+ }
+
+.footer__find-us {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    max-height: 210px;
+}
+
+.footer__find-us h3 {
+    font-family: Nutino;
+    font-weight: 400;
+    font-size: 20px;
+    color: #284854;
+    padding-bottom: 25px;
+}
+
+.footer__find-us__img-wrapper{
+    margin-left: 150px;
+    display: flex;
+    max-height: 210px;
+}
+
+.footer__find-us__img {
+    width: 230px;
+    height: 210px;
+}
+
+.footer__find-us a{
+    max-width: 190px;
+    color: #60C1BD;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Nutino;
+    padding-bottom: 20px;
+}
+
+.footer__wrapper{
+    display: flex;
+    width: 100%;  
+}
+
+.footer__links{
+    display: flex;
 }
