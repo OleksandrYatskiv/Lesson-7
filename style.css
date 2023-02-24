@@ -338,9 +338,8 @@ section {
 }
 
 footer {
-    display: flex;
     width: 100%;
-    height: 650px;
+    height: 550px;
     padding: 120px 200px 0px 150px;
 }
 
@@ -358,13 +357,13 @@ footer {
     padding-bottom: 25px;
 }
 
-.footer__veterinars a{
+.footer__veterinars a {
     font-family: Nutino;
     font-weight: 400;
     font-size: 14px;
     color: #60C1BD;
     padding-bottom: 20px;
- }
+}
 
 .footer__hospitals {
     display: flex;
@@ -381,13 +380,13 @@ footer {
     padding-bottom: 25px;
 }
 
-.footer__hospitals a{
+.footer__hospitals a {
     font-family: Nutino;
     font-weight: 400;
     font-size: 14px;
     color: #60C1BD;
     padding-bottom: 20px;
- }
+}
 
 .footer__find-us {
     display: flex;
@@ -404,7 +403,7 @@ footer {
     padding-bottom: 25px;
 }
 
-.footer__find-us__img-wrapper{
+.footer__find-us__img-wrapper {
     margin-left: 150px;
     display: flex;
     max-height: 210px;
@@ -415,7 +414,7 @@ footer {
     height: 210px;
 }
 
-.footer__find-us a{
+.footer__find-us a {
     max-width: 190px;
     color: #60C1BD;
     font-size: 14px;
@@ -424,11 +423,31 @@ footer {
     padding-bottom: 20px;
 }
 
-.footer__wrapper{
+.footer__wrapper {
     display: flex;
-    width: 100%;  
+    width: 100%;
 }
 
-.footer__links{
+.footer__links {
     display: flex;
+    margin-top: 70px;
+}
+
+.footer__links a {
+    color: #60C1BD;
+    font-family: Nutino;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+.footer__authors {
+    margin-top: 40px;
+}
+
+.footer__authors p {
+    font-family: Nutino;
+    font-weight: 400;
+    color: #284854;
+    font-size: 13px;
 }
